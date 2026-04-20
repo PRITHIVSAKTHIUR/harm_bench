@@ -1,7 +1,7 @@
 [project]
 name = "harm-bench"
 version = "0.1.0"
-description = "Add your description here"
+description = "Harm Bench Evaluator is a specialized, experimental testing framework designed to assess the safety, compliance, and abliteration levels of large language models."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
