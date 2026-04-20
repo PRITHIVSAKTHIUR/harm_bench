@@ -1,16 +1,3 @@
----
-license: apache-2.0
-task_categories:
-- text-generation
-language:
-- en
-tags:
-- agent
-pretty_name: e
-size_categories:
-- 1K<n<10K
----
-
 # **Harm Bench Evaluator**
 
 Harm Bench Evaluator is a specialized, experimental testing framework designed to assess the safety, compliance, and abliteration levels of large language models. Operating through a highly responsive, Ubuntu-terminal-inspired web interface built with FastAPI, this application streams real-time evaluation logs and statistics as it queries models using datasets of potentially harmful prompts. By utilizing a robust set of regex patterns to detect safety refusals, Harm Bench accurately calculates a model's "Harmfulness Score" based on its compliance rate (where compliance indicates an unredacted or "unsafe" response). Furthermore, the suite features seamless Hugging Face Hub integration, allowing researchers to automatically package the evaluation metrics into a structured YAML file and push it as a Pull Request directly to the evaluated model's repository.
