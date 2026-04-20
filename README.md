@@ -37,7 +37,7 @@ Harm Bench Evaluator is a specialized, experimental testing framework designed t
 
 ### **Repository Structure**
 
-```py
+```
 prithivMLmods/harm_bench (main)
 ├── dataset
 │   └── harmful_prompts.parquet (152.0 KB)
