@@ -1,0 +1,8 @@
+huggingface_hub
+transformers
+torchvision
+accelerate
+datasets
+uvicorn
+fastapi
+torch
